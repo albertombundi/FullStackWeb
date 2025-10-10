@@ -1,0 +1,23 @@
+{
+  "name": "nodetextapp",
+  "version": "1.0.0",
+  "description": "Send SMS from Nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertombundi/NodeTextApp.git"
+  },
+  "author": "albertombundi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertombundi/NodeTextApp/issues"
+  },
+  "homepage": "https://github.com/albertombundi/NodeTextApp#readme",
+  "dependencies": {
+    "@vonage/server-sdk": "^3.21.0",
+    "twilio": "^5.7.0"
+  }
+}
