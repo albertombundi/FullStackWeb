@@ -1,0 +1,25 @@
+{
+  "name": "webscraping",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertombundi/webscraping.git"
+  },
+  "bugs": {
+    "url": "https://github.com/albertombundi/webscraping/issues"
+  },
+  "homepage": "https://github.com/albertombundi/webscraping#readme"
+}
