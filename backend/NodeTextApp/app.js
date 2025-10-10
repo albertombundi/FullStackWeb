@@ -14,14 +14,19 @@ app.engine('html', ejs.renderFile);
 
 
 // Public folder setup
-app.use(express.static(__dirname + 'public'));
+app.use(express.static(__dirname + '/public'));
 
 // body parser middleware
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// Index route
+app.get('/', (req, res) => {
+    res.render('index');
+});
+
 // Define a port
-const port = 300;
+const port = 3000;
 
 // Start server
 const server = app.listen(port, () => console.log(`Server started on port ${port}`))
