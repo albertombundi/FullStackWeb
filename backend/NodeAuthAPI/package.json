@@ -1,0 +1,23 @@
+{
+  "name": "nodeauthapi",
+  "version": "1.0.0",
+  "description": "JWT Exercise",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertombundi/NodeAuthAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertombundi/NodeAuthAPI/issues"
+  },
+  "homepage": "https://github.com/albertombundi/NodeAuthAPI#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
