@@ -1,10 +1,12 @@
 import { Text, View, ScrollView } from "react-native";
-import Constants from 'expo-constants'
+import Constants from 'expo-constants';
 
 import { Header } from "../components/header/header";
 import { Banner } from "../components/banner";
 import  Search  from "../components/search";
 import { Section } from "../components/section";
+import { TrendingFoods } from "../components/trending";
+import { Restaurants } from "../components/restaurants";
 
 
 const statusBarHeight = Constants.statusBarHeight;
@@ -30,6 +32,17 @@ export default function Index() {
         action={() => console.log("CLICOU NO VEJA MAIS")}
         size="text-2xl"
       />
+
+      <TrendingFoods/>
+
+      <Section
+        name="Famosos no RobéFood"
+        label="Veja todos"
+        action={ () => console.log("CLICOU NO Famosos")}
+        size="text-xl"
+      />
+
+      <Restaurants/>
 
     </ScrollView>
   );
