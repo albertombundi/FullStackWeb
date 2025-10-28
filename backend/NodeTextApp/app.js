@@ -25,6 +25,12 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
+// Catch form submit
+app.post('/', (req, res) => {
+    res.send(req.body);
+    console.log(req.body);
+});
+
 // Define a port
 const port = 3000;
 
