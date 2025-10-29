@@ -1,8 +1,15 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const { Vonage } = require('@vonage/server-sdk');
 const ejs = require('ejs');
-const twilio = require('twilio');
 const socketio = require('socket.io');
+
+
+// Init Vonage
+const vonage = new Vonage({
+    apiKey: '',
+    apiSecret: '',
+},{debug: true});
 
 
 // Initialize the Express app
