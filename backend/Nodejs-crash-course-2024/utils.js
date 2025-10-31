@@ -1,3 +1,5 @@
+// Common JS Module Syntax
+
 function generateRadomNumber()  {
     return Math.floor(Math.random() * 100); + 1;
 
