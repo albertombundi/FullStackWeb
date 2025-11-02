@@ -7,7 +7,7 @@ const PORT = process.env.PORT;
 // Obetendo o nome do diretório atual e o nome do arquivo atual
 const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
+console.log('__filename:', __filename);
 const server = http.createServer(async(req, res) => {
     try {
       // Vericar se o método é GET
