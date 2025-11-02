@@ -8,8 +8,6 @@ const PORT = process.env.PORT;
 const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-console.log(`__dirname: ${__dirname}, __filename: ${__filename}`);
-
 const server = http.createServer(async(req, res) => {
     try {
       // Vericar se o método é GET
