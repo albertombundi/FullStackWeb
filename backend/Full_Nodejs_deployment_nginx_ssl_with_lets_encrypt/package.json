@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-deployment-nginx-ssl",
+  "version": "1.0.0",
+  "description": "Node.js deployment with Nginx and SSL with Let's Encrypt",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "nginx",
+    "ssl",
+    "lets-encrypt"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
